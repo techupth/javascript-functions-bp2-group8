@@ -1,21 +1,19 @@
-// Start coding here
-//Exercise1
-function add(a,b){
+function add (a,b){
     return a+b;
 };
-console.log(add(10,5));
+console.log(add(15,5));
 
-function substract(a,b){
+function subtract (a,b){
     return a-b;
 };
-console.log(substract(10,5));
+console.log(subtract(10,5))
 
 function multiply(a,b){
-    return a*b;
-}
-console.log(multiply(10,5));
+    return (a*b);
+};
+console.log(multiply(10,5))
 
-function divide(a,b) {
+function divide(a,b){
     return a/b;
 }
 console.log(divide(10,5));
