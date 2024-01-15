@@ -1,14 +1,19 @@
-// Start coding here
-//exercise 3
-let addFunction = (a,b) => a+b;;
-console.log(addFunction(10,5));
+let add = (a,b) => {
+    return (a+b)
+ }
+ console.log(add(10,5))
 
-let substractFunction = (a,b) => a-b;
-;
-console.log(substractFunction(10,5));
+ let subtract = (a,b) => {
+    return (a-b);
+ }
+ console.log(subtract(10,5))
 
-let multiplyFunction = (a,b) => a*b;
-console.log(multiplyFunction(10,5));
+ let multiply = (a,b) =>{
+    return (a*b);
+ }
+ console.log(multiply(10,5))
 
-let divideFunction = (a,b) => a/b;
-console.log(divideFunction(10,5));
+ let divide = (a,b) =>{
+    return (a/b);
+ }
+ console.log(divide(10,5))

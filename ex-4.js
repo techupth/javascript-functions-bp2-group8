@@ -1,18 +1,16 @@
-// Start coding here
-let addFunction = (a,b) => a+b;
-let substractFunction = (a,b) => a-b;
-let multiplyFunction = (a,b) => a*b;
-let divideFunction = (a,b) => a/b;
+let add = (a,b) => a+b;
+let subtract = (a,b) => a-b;
+let multiply = (a,b) => a*b;
+let divide = (a,b) => a/b;
 
 const calculator = {
-    add:addFunction,
-    substract:substractFunction,
-    multiply:multiplyFunction,
-    divide:divideFunction
+    add:add,
+    subtract:subtract,
+    multiply:multiply,
+    divide,divide
 };
 let addResult = calculator.add(10,20);
 console.log(addResult);
 
 let divideResult = calculator.divide(3000,10);
 console.log(divideResult);
-
