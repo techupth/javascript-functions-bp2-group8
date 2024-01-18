@@ -7,7 +7,7 @@ const calculator = {
     add:add,
     subtract:subtract,
     multiply:multiply,
-    divide,divide
+    divide:divide,
 };
 let addResult = calculator.add(10,20);
 console.log(addResult);
